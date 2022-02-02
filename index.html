@@ -1,361 +1,144 @@
-<!DOCTYPE html>
-
-
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <script src="https://kit.fontawesome.com/1545f020df.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="css/all.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
+	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
+	<title>Local index - HTTrack Website Copier</title>
+  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+	<style type="text/css">
+	<!--
 
-  <link rel="stylesheet" href="css/main.css">
+body {
+	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	background: #77b;
+}
+body, td {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
 
+#subTitle {
+	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
+	}
+
+#siteNavigation a, #siteNavigation .current {
+	font-weight: bold;  color: #448;
+	}
+#siteNavigation a:link    { text-decoration: none; }
+#siteNavigation a:visited { text-decoration: none; }
+
+#siteNavigation .current { background-color: #ccd; }
+
+#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
+#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+
+
+a:link    { text-decoration: underline;  color: #00f; }
+a:visited { text-decoration: underline;  color: #000; }
+a:hover   { text-decoration: underline;  color: #c00; }
+a:active  { text-decoration: underline; }
+
+#pageContent {
+	clear: both;
+	border-bottom: 6px solid #000;
+	padding: 10px;  padding-top: 20px;
+	line-height: 1.65em;
+	background-image: url(backblue.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
+
+#pageContent, #siteNavigation {
+	background-color: #ccd;
+	}
+
+
+.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
+.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+
+hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+
+h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
+h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
+h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
+h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+
+.blak { background-color: #000; }
+.hide { display: none; }
+.tableWidth { min-width: 400px; }
+
+.tblRegular       { border-collapse: collapse; }
+.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
+.tblHeaderColor, .tblHeaderColor td { background: #99c; }
+.tblNoBorder td   { border: 0; }
+
+
+// -->
+</style>
 
 </head>
 
-<body>
-  <!-- Start Upper Bar -->
-  <header> 
-  <div class="upper-bar">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm">
-          <span> Nous Rejoindre: </span>
-          <i class="fa fa-phone"></i><span> Tel: +212 06457821 </span>
-          <i class="fa fa-envelope-o"></i><span> auto-ecolecoop@gmail.com </span>
-        </div>
-
-        <div class="col-sm text-right"> 
-                    <!--  <span > Let's Worl Together</span>, -->
-                    
-                    <!-- <a href="https://www.google.com" class="main-btn-2"><i class="fas fa-sign-in-alt"></i> ouvrir une session</a> -->
-          <!-- <span class="ouv-session"></span> -->
-		  
-		  
-		  <div class="dropdown" data-dropdown>
-         <button class="link" data-dropdown-button><i class="fas fa-sign-in-alt"></i> Login</button>
-          <div class="dropdown-menu">
-        <form class="login-form">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-          <button type="submit">Login</button>
-        </form>
-      </div>
-    </div>
-	
-        </div>
-
-      </div>
-
-    </div>
-
-
-  </div>
-  
-  
-  
-  
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <span>Auto-Ecole</span><span>Coop</span>
-    </a>
-
-
-    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#main-nav"
-      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class="collapse navbar-collapse" id="main-nav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Notre Entreprise <span class="sr-only">(current) </span></a>
-
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services aux Entreprises</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Emplois disponibles</a>
-        </li>
-        <li class="nav-item">
-
-          <a class="nav-link" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> <span> Trouver une école
-            </span> </a>
-        </li>
-        <li class="nav-item ml-auto">
-          <a class="nav-link" href="#"><i class="fas fa-edit"></i> <span> Inscription en Ligne </span> </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Fr</a>
-        </li>
-
-    </div>
-    </ul>
-
-  </div>
-  </div>
-</nav>
-</header>
-
-<div class="slider">
-
-  <div id="main-slider" class="carousel slide" data-ride="carousel">
-    <div class="carousel-indicators">
-      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-      <li data-target="#main-slider" data-slide-to="1"></li>
-      <li data-target="#main-slider" data-slide-to="2"></li>
-    </div>
-    <div class="carousel-inner">
-
-      <div class="overlay">
-        <section class="main">
-          <div class="col">
-            <div class="social-icons">
-              <a href="#"><i class="fab fa-linkedin"></i></a><br>
-              <a href="#"><i class="fab fa-twitter"></i></a><br>
-              <a href="#"><i class="fab fa-instagram"></i></a><br>
-              <a href="#"><i class="fab fa-youtube"></i></a><br>
-              <a href="#"><i class="fas fa-edit"></i></i></a>
-            </div>
-
-          </div>
-
-      </div>
-
-      <div class="carousel-item  carousel-one active ">
-        <img class="d-block w-100" src="img/slide3.png" alt="Thirdslide">
-      </div>
-      <div class="carousel-item carousel-two">
-        <img class="d-block w-100" src="img/slide1.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item carousel-three">
-        <img class="d-block w-100" src="img/slide2.png" alt="Second slide">
-      </div>
-    </div>
-    <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
--->
-  </div>
-
-</div>
-<!--- End Slider --
-
-
-<section class="services" id="services">
-  <!--<h2 class="title"> je veux conduire ..</h2> --> 
-  <div class="content" >
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>AUTOMOBILE</h3>
-      </div>
-    </div>
-
-
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>MOTOCYCLETTE</h3>
-      </div>
-    </div>
-
-
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>scooter</h3>
-      </div>
-    </div>
-
-
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>trois roues</h3>
-      </div>
-    </div>
-
-
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>véhicule adapté</h3>
-      </div>
-    </div>
-
-
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>véhicule lourd</h3>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="icon">
-        <img href="#" src="img/auto.png" alt="">
-      </div>
-      <div class="info">
-        <h3>véhicule lourd</h3>
-      </div>
-    </div>
-    
-  </div>
-  
-
-</section>
-
-
-  <!-- End Upper Bar -->
-  <!---- Start Navbar -->
-
-  <!-- Start Page content -->
-<!-- Start Geolocalisation -->
-
-<div class="main-1">
-   <div class="banner">
-    <img src="img/background-quebec.jpg" alt="img">
-    <div > <h3> Trouves une école <br> <span> près de chez toi ! </span></h3>
-      <a href="#" class="main-btn1"> Me géolocaliser <i class="fas fa-map-marker-alt"></i></a></div>
-   
-  
-  <div class="banner-2">
-    <div > <h3> inscris-toi en ligne <br> <span> seuelemnt en 5 min </span></h3>
-      <a href="#" class="main-btn2"> M'inscrire maintenant   <i class="fas fa-edit"></i></a></div>
-   
-  </div>
-  </div>
-
-
-   
- </div>
-</div>
-<section class="main1">
-
-  <div class="titre_body">
-    <h2>Plus que des cours de conduite automobile<br></h2>
-    <h2><span>NOUS SOMMES NUMÉRO 1 AU Maroc</span></h2>
-        <h2>ALORS QU’ATTENdez-vous?</h2>
-
-  </div>
-</section>
-
-  <!--- End Features -->
-  <div class="container-card">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="cards">
-          <img src="img/module_image/inscris_toi.jpg" alt="inscris_toi" class="card-img-top">
-          <div class="card-body">
-           <!-- <h5 class="card-title"> Inscris-toi</h5>-->
-            <p class="card-text"> Bonne nouvelle! Les écoles de conduite Auto-Ecole Coop t’offrent un cours de conduite
-              automobile qui te donnera
-              les meilleures chances de réussite
-            </p>
-            <a href="#" class="btn btn-primary">Inscris-toi</a>
-
-
-          </div>
-
-
-        </div>
-
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="cards">
-          <img src="img/module_image/service_aux_entreprises.jpg" alt="Services aux entreprises" class="card-img-top">
-          <div class="card-body">
-           <!-- <h5 class="card-title"> Services aux entreprises</h5>-->
-            <p class="card-text"> Par sa division Tecnic Avancée, le groupe Tecnic offre aux entreprises des cours de conduite
-			et des formations sur mesure en conduite préventive. 
-			
-            
-            </p>
-            <a href="#" class="btn btn-primary">Services aux entreprises</a>
-
-
-          </div>
-
-
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="cards">
-          <img src="img/module_image/tecnic_location.png" alt="Passes Ton Examen" class="card-img-top">
-          <div class="card-body">
-            <!--<h5 class="card-title"> Passes Ton Examen</h5>-->
-            <p class="card-text"> Bonne nouvelle! Les écoles de conduite Auto-Ecole Coop t’offrent un cours de conduite
-              automobile qui te donnera
-              les meilleures chances de réussite
-            </p>
-            <a href="#" class="btn btn-primary">Passes Ton Examen</a>
-
-
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-  
-
-
-  <!-- Start Footer -->
-
-  <footer class="footer">
-
-    <p class="footer-title">Copyrights 2021 @ <span>Auto-Ecole </span><span>Coop </span><br>Avec vous, au Coeur de votre
-      services </p>
-
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-
-
-<script src="js/script.js"> </script>
-  <script src="js/jquery-3.6.0.min.js"> </script>
-  <script src="js/popper.min.js"> </script>
-  <script src="js/bootstrap.min.js"> </script>
-
-
-
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+	<tr>
+	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
+	</tr>
+</table>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+<tr class="blak">
+<td>
+	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+	<tr>
+	<td colspan="6"> 
+		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+		<tr> 
+		<td id="pageContent"> 
+<!-- ==================== End prologue ==================== -->
+
+	<meta name="generator" content="HTTrack Website Copier/3.x">
+	<TITLE>Local index - HTTrack</TITLE>
+</HEAD>
+<BODY>
+<H1 ALIGN=Center>Index of locally available sites:</H1>
+	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
+		<TR>
+			<TD BACKGROUND="fade.gif">
+				&middot;
+					<A HREF="tecnic.ca/fr.html">
+						tecnic.ca/fr.html
+					</A>		
+			</TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<BR>
+	<BR>
+  	<H6 ALIGN="RIGHT">
+	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
+	</H6>
+	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+	<!-- Thanks for using HTTrack Website Copier! -->
+	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=tecnic.ca/fr.html">
+
+
+<!-- ==================== Start epilogue ==================== -->
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+
+<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
+	</tr>
+</table>
 
 </body>
+
 </html>
+
+

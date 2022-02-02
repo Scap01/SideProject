@@ -1,0 +1,177 @@
+h4.red{
+    color:#e81030;
+}
+div.align-right{
+    clear:both;
+}
+div.align-right h4,
+div.align-right p{
+    text-align: right;
+}
+
+div.carrieres-blue-bloc-bottom{
+    background-color:#004792;
+    color:#fff;
+    margin-top:30px;
+    padding:15px;
+}
+div.carrieres-blue-bloc-bottom h2,
+div.carrieres-blue-bloc-bottom h3{
+    text-align: center;
+    color:#fff;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div{
+    padding-bottom:5px;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container{
+    background-color: #0058b5;
+    height:150px;
+    text-align:left;
+    line-height: 150px;
+    margin-top:15px;
+    cursor:pointer;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container:hover{
+    background-color:#e81030;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p{
+    display: inline;
+    float:left;
+    text-align: left;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p.align_left{
+    margin-left:60px;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p.align_right{
+    margin-right:60px;
+    text-align: right;
+    float:right;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p a{
+    color:#fff;
+    text-decoration: none;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p a:hover{
+    text-decoration: underline;
+}
+
+/* menu droite moniteurs/formateurs */
+#aside .moduletable{
+    margin-bottom:-32px;
+}
+.moniteurs-formateurs-right-menu{
+    margin-top:74px;
+    padding:0 !important;
+}
+.moniteurs-formateurs-right-menu h3{
+    height:80px;
+    text-align:left;
+    line-height:40px;
+    color:#fff;
+    font-size:1.0em !important;
+    font-weight:600 !important;
+    background-color:#004792;
+    margin:0;
+    padding:20px;
+    display: block;
+}
+.moniteurs-formateurs-right-menu ul.menu{
+    background-color:#e3ebf3;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.moniteurs-formateurs-right-menu ul.menu li{
+    color:#595959;
+    text-decoration: none;
+    height:32px;
+    line-height: 32px;
+}
+.moniteurs-formateurs-right-menu ul.menu li a{
+    padding: 0 20px;
+    color:#595959;
+    text-decoration: none;
+}
+.moniteurs-formateurs-right-menu ul.menu li a:hover{
+    background-color:#e3ebf3;
+}
+.moniteurs-formateurs-right-menu ul.menu li:hover a, .moniteurs-formateurs-right-menu ul.menu li.active a, .moniteurs-formateurs-right-menu ul.menu li.current a{
+    color:#e81030;
+}
+h2.blue_title{
+    color:#004792;
+}
+hr.blue_separator{
+    border-top: 2px solid #004792;
+}
+
+/* adjust menu */
+.itemid-603 .moniteurs-formateurs-right-menu:first-child, .itemid-607 .moniteurs-formateurs-right-menu:first-child{
+    margin-top: 0 !important;
+}
+
+
+/* page moniteur auto */
+.header_page_moniteur_auto{
+    background-color:#ededed;
+    background-image:url("../../../images/__tecnic/carrieres-v2/header_top_half_transparent.png");
+    background-position:right top;
+    height:460px;
+    background-repeat: no-repeat;
+    margin-top:30px;
+}
+.header_page_instructor_moto{
+    background-image:url("../../../images/__tecnic/carrieres-v2/header_top_half_transparent_with_moto.png");
+}
+.header_page_service{
+    background-image:url("../../../images/__tecnic/carrieres-v2/agent_service.png");
+}
+.header_page_service_clientele_rs{
+    background-image:url("../../../images/__tecnic/carrieres-v2/agent_service_rs.png");
+}
+h3.reduced_line_height{
+    line-height:30px;
+}
+.text_over_image_moniteur_auto{
+    padding-top: 40px;
+    padding-left: 30px;
+    width:45%;
+}
+.header_page_service_clientele_rs .text_over_image_moniteur_auto{
+    padding-top: 20px;
+}
+.header_page_service_clientele_rs .text_over_image_moniteur_auto h4{
+    margin-top: 0px;
+}
+.text_over_image_moniteur_auto h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.text_over_image_moniteur_auto ul > li::before {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width:23px;
+    height:23px;
+    content: "";
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px 0 0;
+    vertical-align: top;
+    font-family: "icon tecnic";
+    font-size: 1.4em;
+    line-height: 23px;
+    color: #004990;
+    background-image:url("../../../images/__tecnic/carrieres-v2/bullet_1.jpg");
+}
+.text_over_image_moniteur_auto ul > li:nth-child(2)::before{
+    background-image:url("../../../images/__tecnic/carrieres-v2/bullet_2.jpg");
+}
+.text_over_image_moniteur_auto ul > li:nth-child(3)::before{
+    background-image:url("../../../images/__tecnic/carrieres-v2/bullet_3.jpg");
+}
+.text_over_image_moniteur_auto ul > li:nth-child(4)::before{
+    background-image:url("../../../images/__tecnic/carrieres-v2/bullet_4.jpg");
+}
+.text_over_image_moniteur_auto ul > li:nth-child(5)::before{
+    background-image:url("../../../images/__tecnic/carrieres-v2/bullet_5.jpg");
+}

@@ -1,0 +1,105 @@
+.btn-md-block{
+	display: block !important;
+	width: 100%;
+	float: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+/***** Header *****/
+.header .search-box{
+
+}
+
+.header .navbar .nav > li {
+	padding: 0 9px 0 0;
+}
+
+.header .navbar .nav > li.item-228 {
+	padding-right: 0;
+}
+
+.header .navbar .nav > li > a {
+	padding: 26px 0 25px 8px;
+}
+
+/***** Modules Aside *****/
+
+#sidebar .moduletable{
+	max-width: 213px;
+}
+
+#aside .btn {
+	white-space: normal;
+}
+
+/***** Module Menu des cours *****/
+.course-menu, .concours-menu, .affiliated-menu{
+	position: static !important;
+}
+
+	.course-menu ul > li > a, .concours-menu ul > li > a, .affiliated-menu ul > li > a{
+		font-size: 14px;
+	}
+
+	.course-menu ul > li > a .affiliated-menu ul > li > a,
+	.course-menu ul > li > a.two-lines, .affiliated-menu ul > li > a.two-lines{
+		padding-top: 29px;
+	}
+
+	.course-menu ul > li > a.three-lines, .affiliated-menu ul > li > a.three-lines{
+		padding-top: 20px;
+	}
+
+/***** Cours page d'accueil *****/
+.block-courses a{
+	font-size: 13px;
+}
+
+
+
+/***** Inscription en ligne *****/
+
+/** Step 7 **/
+.tecnic_register label > span.visible-md, .tecnic_mondossier label > span.visible-md{
+	display: inline-block !important;
+}
+
+.tecnic_register label > span.hidden-md, .tecnic_mondossier label > span.hidden-md{
+	display: none !important;
+}
+
+
+/***** Mon dossier *****/
+
+/* Dashboard */
+.tecnic_mondossier.dashboard{
+
+}
+
+.moduletable.member-menu{
+	max-width: 213px;
+}
+
+.tecnic_mondossier .phase .item-course .course-action .jumelage_proposed_container a.btn{
+	width:80%;
+	margin:5px;
+}
+
+/* Cours cancel */
+.tecnic_mondossier #cancel_popup_container{
+	width: 940px;
+}
+
+
+
+/* cours details et assignation */
+.tecnic_mondossier .item .item-body.item-course .cours-assignation-item{
+	padding-left:36px;
+}
+.tecnic_mondossier .item .use-availabilities-item-content{
+    padding-left:36px;
+}
+.md-pull-right{
+	float:right !important;
+}

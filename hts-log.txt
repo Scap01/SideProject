@@ -1,0 +1,35 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 01 Feb 2022 20:33:14 at https://tecnic.ca/fr +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -*https://tecnic.ca/fr* +*https://tecnic.ca/fr*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tecnic.ca/fr -%L https://tecnic.ca/fr -O1 "D:\Etude\ProjectF\test\CopySite" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -*https://tecnic.ca/fr* +*https://tecnic.ca/fr* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:33:14	Error: 	Could not include URL list: https://tecnic.ca/fr
+20:34:58	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://tecnic.ca/fr)
+20:34:58	Warning: 	Link https://tecnic.ca/fr/covid-mesures-sanitaires not scanned (follow robots meta tag)
+20:35:18	Warning: 	Link https://tecnic.ca/fr/mot-de-passe-oublie/mot-de-passe-oublie not scanned (follow robots meta tag)
+20:39:01	Warning: 	Link https://tecnic.ca/fr/fais-tes-cours-theoriques-en-ligne not scanned (follow robots meta tag)
+20:39:19	Warning: 	Link https://tecnic.ca/fr/conditions-applicables-aux-achats-en-ligne not scanned (follow robots meta tag)
+20:39:19	Error: 	"Not Found" (404) at link https://tecnic.ca/index.php?Itemid=238 (from https://tecnic.ca/fr)
+20:39:20	Warning: 	File not parsed, looks like binary: https://tecnic.ca/templates/hpjmaster/fonts/glyphicons-halflings-regular.woff2
+20:39:20	Warning: 	Link https://tecnic.ca/en/covid-health-measures not scanned (follow robots meta tag)
+20:42:46	Warning: 	Link https://tecnic.ca/en/do-your-theory-lessons-online not scanned (follow robots meta tag)
+20:42:48	Error: 	"Bad Request" (400) at link https://tecnic.ca/index.php#tab-content-1=&Itemid=501 (from https://tecnic.ca/en)
+20:43:06	Warning: 	Link https://tecnic.ca/en/conditions-applicable-to-online-purchases not scanned (follow robots meta tag)
+20:43:07	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/c (from connect.facebook.net/en_US/fbevents.js)
+20:43:07	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/b (from connect.facebook.net/en_US/fbevents.js)
+20:43:07	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/POST (from connect.facebook.net/en_US/fbevents.js)
+20:43:13	Warning: 	See other for https://tecnic.ca/
+20:43:13	Warning: 	File has moved from https://tecnic.ca/ to https://tecnic.ca/fr
+20:43:31	Warning: 	Retry after error -4 (No data (connection closed)) at link https://tecnic.ca/fr/ecole-de-conduite/tecnic-chambly (from https://tecnic.ca/fr/autres-services/carte-cadeau-tecnic)
+20:44:11	Warning: 	Link https://tecnic.ca/fr/concours-et-promos/cette-honda-c-est-la-mienne/reglements-officiels-cette-honda-cest-la-mienne not scanned (follow robots meta tag)
+20:47:30	Error: 	"Not Found" (404) at link www.google.com/recaptcha/api/img/white/sprite.png (from https://tecnic.ca/components/com_uniform/assets/css/form.css)
+20:48:44	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/en/blog/le-permis-trois-roues-facile-a-avoir (from https://tecnic.ca/en/blog/getting-a-motorcycle-license)
+20:50:39	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/fr/blogue/« (from https://tecnic.ca/fr/blogue/5-road-trip-une-journee-quebec)
+20:50:39	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/en/blog/comment-obtenir-mon-permis-de-conduire-du-quebec-alors-que-j-ai-deja-un-permis-etranger (from https://tecnic.ca/en/blog/permis-probatoire-ou-d-apprenti-renouvellement-ou-remplacement-points-d-inaptitude-ou-de-demerite-c-est-a-n-y-rien-comprendre)
+20:50:39	Error: 	"NOT FOUND" (404) at link https://tecnic.ca/en/blog/« (from https://tecnic.ca/en/blog/5-road-trip-one-day-quebec)
+
+HTTrack Website Copier/3.49-2 mirror complete in 17 minutes 27 seconds : 1415 links scanned, 1401 files written (131501803 bytes overall) [107931702 bytes received at 103086 bytes/sec], 33593569 bytes transferred using HTTP compression in 760 files, ratio 22%, 9.3 requests per connection
+(12 errors, 12 warnings, 0 messages)

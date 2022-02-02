@@ -1,0 +1,133 @@
+#avantages_modules_container{
+
+}
+
+#avantages_modules_container .avantages_module_single{
+    height:400px;
+    background-size:cover;
+    background-position: center center;
+}
+#avantages_modules_container .avantages_block_single_container{
+    padding-bottom: 30px;
+}
+#avantages_modules_container .avantages_block_number{
+    position: absolute;
+    top:0;
+    left:32px;
+    color:#fff;
+    font-size:40px;
+    font-style: italic;
+    font-weight: bold;
+    width:72px;
+    height:72px;
+    text-align: center;
+    line-height: 72px;
+    background: #ee5f53;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-radial-gradient(center, ellipse cover, #ee5f53 0%, #e51937 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ee5f53), color-stop(100%,#e51937));
+    background: -webkit-radial-gradient(center, ellipse cover, #ee5f53 0%,#e51937 100%);
+    background: -o-radial-gradient(center, ellipse cover, #ee5f53 0%,#e51937 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #ee5f53 0%,#e51937 100%);
+    background: radial-gradient(ellipse at center, #ee5f53 0%,#e51937 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee5f53', endColorstr='#e51937',GradientType=1 );
+}
+#avantages_modules_container .avantages_block_content_container a.btn{
+    position:absolute;
+    left:32px;
+    bottom:20px;
+}
+#avantages_modules_container .avantages_block_content_container .avantage_text{
+    color:#fff;
+    position: absolute;
+    left:32px;
+    bottom:68px;
+    width:75%;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+/* avantages 2 adjustments */
+.avantages-2 #avantages_modules_container .titre_corner{
+	display:none;
+}
+.avantages-2 h2{
+	margin-top:-20px;
+}
+.avantages-2 > div > p.text{
+	margin-bottom:20px;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .avantage_text{
+	font-weight:bold;
+	/*color:#353535;*/
+	color:#000;
+	font-style:italic;
+	font-size:22px;
+	text-align:center;
+	line-height:24px;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .avantage_text .avantage2_bigger{
+	font-style:normal;
+	font-size:32px;
+	line-height:32px;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .btn{	
+	text-align:center;
+	background: none !important;
+    color: #000;
+    text-decoration: underline !important;
+	font-size:16px;
+	font-weight:normal;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .btn:hover{
+	text-decoration:none !important;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .avantage_text{
+	left:0;
+    top:250px;
+    width:100%;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .avantage_text p.red_text{
+    font-size: 18px;
+    color: #e51937;
+    font-weight: normal;
+    padding: 0 20px 0 20px;
+    margin-bottom: 0;
+	font-style:normal;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .button_plus_container{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+.avantages-2 #avantages_modules_container .avantages_block_content_container .button_plus_container .btn.red{
+	position:relative;
+	left:auto;
+	bottom:auto;
+}
+
+
+
+
+/* big tablets (md)*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    #avantages_modules_container .avantages_module_single{
+        height:318px;
+    }
+}
+
+/* tablet and phone layout (sm)*/
+ @media screen and (max-width: 991px){
+     #avantages_modules_container .avantages_module_single{
+         height:328px;
+     }
+ }
+
+/* phones only (xs)*/
+@media screen and (max-width: 767px){
+    #avantages_modules_container .avantages_module_single{
+        height:656px;
+    }
+}

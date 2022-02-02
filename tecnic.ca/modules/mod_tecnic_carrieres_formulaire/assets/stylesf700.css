@@ -1,0 +1,35 @@
+.formulaire_carrieres_outer_content{
+    padding:30px 64px 30px 64px;
+    background-color:#ededed;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.formulaire_carrieres_school_lists_container{
+    display: none;
+}
+.formulaire_carrieres_outer_content .formulaire_carrieres_region_selection_container p{
+    font-weight:bold;
+}
+.formulaire_carrieres_outer_content .formulaire_carrieres_school_lists_container p{
+    font-weight:bold;
+    margin-top:20px;
+}
+.formulaire_carrieres_form_fields_container{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.formulaire_carrieres_form_fields_container div.row{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.formulaire_carrieres_form_fields_container label{
+    height:40px;
+    line-height: 40px;
+}
+.formulaire_carrieres_form_fields_container input.error{
+    border-color: #e51937 !important;
+    color: #e51937 !important;
+}
+.formulaire_carrieres_form_fields_container label.error{
+    color: #e51937 !important;
+}

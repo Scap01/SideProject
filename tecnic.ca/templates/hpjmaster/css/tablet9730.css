@@ -1,0 +1,739 @@
+.btn-tablet-block{
+	display: block !important;
+	width: 100%;
+	float: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.md-pull-right{
+	float:right !important;
+}
+
+.navbar-default .navbar-toggle {
+	display: block;
+	padding-left: 19px;
+	padding-right: 19px;
+	height:  65px;
+	margin: 0;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	position:static;
+	float:none;
+}
+
+.navbar-collapse.collapse {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	border: none;
+}
+
+.navbar-collapse.collapse.in {
+	display: block;
+	height: auto;
+	overflow: visible;
+}
+
+/***** Uniform *****/
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.jsn-uniform .jsn-form-content label, .jsn-uniform .jsn-form-content .controls {
+	float:none;
+	width:auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.btn.jsn-form-submit{
+	margin: 10px 0 60px 0;
+}
+
+.form-actions .btn-toolbar{
+	text-align: center;
+}
+
+
+
+
+
+#aside .btn {
+	white-space: normal;
+}
+
+.header{
+	background: #fff;
+}
+
+	.header-top{
+		padding: 15px 0;
+	}
+
+	.header-top > div{
+		float: left;
+	}
+
+		.header .brand{
+			position: relative;
+			display: block;
+			overflow: inherit;
+			margin-top: 0;
+			text-align: center;
+		}
+			.header .brand .navbar {
+				position: absolute;
+				top: 5px;
+				right: 0;
+			}
+			.header .brand .moduletable {
+				float: none;
+			}
+
+			.header .brand img{
+				width: auto !important;
+				height: 65px !important;
+			}
+
+	.header .header-main .col-sm-12.col-md-8 {
+		padding: 0;
+	}
+
+	.header .navbar {
+		margin: 0;
+		border: none;
+		min-height: 0;
+	}
+
+		.header .navbar-collapse {
+			clear: both;
+		}
+
+		.header .navbar-collapse.in, .header .navbar-collapse.collapsing {
+			padding: 0;
+			margin: 20px 0 0;
+		}
+
+			.header  .search-form .form-group input{
+				border: 1px solid #d2d2d2;
+				border-left: none;
+				border-right: none;
+				height: 60px;
+				font-size: 17.6px;
+			}
+
+			.header .search-form button.btn{
+				height: 60px;
+				line-height: 60px;
+				padding: 20px 30px;
+				right: 15px;
+			}
+
+			.header .navbar .menu{
+				float: none;
+				font-size: 21.37px;
+			}
+
+			.header .navbar .menu > li{
+				position: static;
+				float: none;
+				display: block;
+				width: auto;
+				padding: 0;
+				background: #fff;
+			}
+
+			.header .navbar .menu > li > a.alternate, .header .navbar .menu > li > span.alternate{
+				font-size: 17.6px;
+				font-weight: 700;
+				text-transform: none;
+				color: #777;
+				background: #f5f5f5 !important;
+			}
+			.header .navbar .menu > li > a.alternate:hover,
+			.header .navbar .menu > li > a.alternate:focus{
+				color: #353535;
+				background: #FFF !important;
+			}
+			.header .navbar .nav > li a.alternate:hover span.caret,
+			.header .navbar .nav > li a.alternate:focus span.caret{
+				border-top-color: #353535;
+			}
+			.header .navbar .nav > li a.link-with-icon {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+
+			.header .navbar .menu li{
+
+			}
+
+			.header .navbar .nav li > a, .header .navbar .nav li > span{
+				padding: 20px 15px 20px 25px;
+				border-bottom: 1px solid #dedede;
+			}
+
+			.header .navbar .nav li br{
+				display: none;
+			}
+
+			.header .navbar .nav > li > .dropdown-menu {
+				padding: 0;
+				border: none;
+				background: #f5f5f5;
+			}
+			.header .navbar .nav > li > .dropdown-menu a {
+				padding-top: 15px;
+				padding-bottom: 15px;
+				border-left: 0;
+				border-right: 0;
+			}
+
+			.header .navbar .nav > li > .dropdown-menu li > a, .header .navbar .nav > li > .dropdown-menu li > span {
+				font-size: 17.6px;
+				font-weight: 700;
+			}
+
+			.header .navbar .nav > li > .dropdown-menu li.active > a,
+			.header .navbar .nav > li > .dropdown-menu li.open > a,
+			.header .navbar .nav > li > .dropdown-menu li:active > a,
+			.header .navbar .nav > li > .dropdown-menu li:focus > a,
+			.header .navbar .nav > li > .dropdown-menu li:hover > a {
+				color: #e51937;
+				background: #f5f5f5;
+			}
+
+			.header .navbar .nav > li > .dropdown-menu li > a.alternate, .header .navbar .nav > li > .dropdown-menu li > span.alternate {
+				font-weight: 400;
+				color: #777;
+				background: #fff  !important;
+			}
+			.header .navbar .nav > li > .dropdown-menu li > a.alternate:hover,
+			.header .navbar .nav > li > .dropdown-menu li > a.alternate:focus{
+				color: #e51937;
+			}
+			.header .navbar .nav > li li.dropdown span.caret::before{
+				content: '\e804';
+			}
+
+			.header .navbar .nav > li li.dropdown.open span.caret::before{
+				content: '\e807';
+			}
+			.header .navbar .nav > li > a.find-school, .header .navbar .nav > li > a.register-online {
+				padding-left: 65px;
+			}
+			/*.header .navbar .nav > li > a.find-school::before, .header .navbar .nav > li > a.register-online::before {
+				margin-top: -7px;
+				left: 25px;
+			}
+			.header .navbar .nav > li > a.find-school:after, .header .navbar .nav > li > a.register-online:after {
+				margin-top: 8px;
+				left: 27px;
+			}*/
+			.header .navbar .nav > li > a.find-school::before, .header .navbar .nav > li > a.register-online::before {
+				font-size: 2.5em;
+				margin-top: 0;
+				top: 0;
+				left: 20px;
+			}
+
+			.header .navbar .nav > li > a > i.icon-switch {
+				display: inline-block;
+				margin-right : 13px;
+			}
+
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+				color: #e51937;
+			}
+
+			.header .navbar .nav .sub-menu{
+				position: static;
+				float: none;
+				display: none !important;
+				width: auto;
+				height: 0;
+				padding: 0;
+				background: #fff;
+				border: none;
+				overflow: hidden;
+				font-size: 17.6px;
+				box-shadow: none;
+				border-bottom: 1px solid #ddd;
+				margin-bottom: -1px;
+			}
+			.header .navbar .nav > li li.dropdown ul {
+				margin-top: 0 !important;
+			}
+			.header .navbar .nav > li li.dropdown .active a {
+				color: #e51937;
+			}
+
+			.header .navbar .nav .open > .sub-menu{
+				display: block !important;
+				height: auto;
+			}
+
+				.header .navbar .nav li > a.courses {
+					font-weight: 700 !important;
+					padding-left: 85px;
+				}
+
+				.header .navbar .nav li > a.courses::before {
+					font-size: 2.5em;
+				}
+
+				.header .navbar .nav .open > .sub-menu li > a{
+					font-weight: 400;
+				}
+				.header .navbar .nav .open > .sub-menu li.active a {
+					background: #e51937;
+					color: #fff;
+				}
+			.header .top-menu .menu > li, .header .mod-languages .lang-inline > li {
+				display: block;
+				margin: 0;
+			}
+			.header .top-menu .menu > li a, .header .mod-languages .lang-inline > li a {
+				display: block;
+				font-weight: 700;
+				font-size: 17.6px;
+				padding: 20px 15px 20px 25px;
+				background: #f5f5f5;
+				border-left: none;
+			}
+
+
+/***** Carousel *****/
+.carousel .item {
+	height: 420px;
+}
+	.carousel .slider-item {
+		background-size: cover;
+	}
+
+#breadcrumbWrap{
+	background-position: 66% bottom;
+}
+
+	#breadcrumbWrap .vehicle{
+		right: 0;
+	}
+
+	#breadcrumbWrap .pastille{
+		right: 0;
+	}
+
+
+.footer{
+
+}
+
+	.footer-menu{
+
+	}
+
+		.footer-menu .menu{
+			margin: 0 -15px;
+		}
+
+			.footer-menu .menu > li{
+				width: 44%;
+				height: 54px;
+				margin: 0 2.5% 20px;
+			}
+
+				.footer-menu .menu > li > span{
+						cursor: pointer;
+					}
+
+					.footer-menu .menu > li > span:hover, .footer-menu .menu > li > span:focus{
+						color: #f2eb0b;
+					}
+
+				.footer-menu .menu > li > .nav{
+					display: none;
+				}
+
+
+/***** Module Bloc Cours TECNIC *****/
+.block-courses{
+	padding: 30px 0;
+}
+
+	.block-courses a{
+		width: 20%;
+		height:140px;
+	}
+	.block-courses a.ans-block{
+        display: none !important;
+    }
+
+
+/***** Module Bloc Trouve une école | Inscris-toi en ligne *****/
+.block-tecnic-cta{
+	background: url(../images/background-module-quebec.jpg) no-repeat center center #9d9d9d;
+}
+
+	.block-tecnic-cta > div[class^="col-"], .block-tecnic-cta > div[class*=" col-"]{
+		height: 218px;
+		padding-top: 50px;
+	}
+
+	.block-tecnic-cta .likeh2{
+		margin-bottom: 20px;
+	}
+
+		.block-tecnic-cta .likeh2 > span{
+			font-size: 20px;
+			line-height: 22px;
+		}
+
+	.block-tecnic-cta .btn{
+		font-size: 16px;
+		line-height: 20px;
+		padding: 10px 30px 10px 15px;
+	}
+
+		.block-tecnic-cta .btn > i{
+			font-size: 1em;
+			line-height: 20px;
+		}
+
+		.block-tecnic-cta .btn > i::before{
+			font-size: 3em;
+			line-height: 20px;
+			top: 50%;
+			right: 4px;
+			margin: -13px 0 0;
+		}
+
+
+
+/***** Module Bloc Nos experts en parlent *****/
+.block-three-blocks{
+
+}
+
+	.block-three-blocks .row > div > a{
+		margin: 15px 0;
+	}
+
+
+
+/***** Module Bloc Pourquoi choisir TECNIC ? *****/
+.block-why{
+
+}
+
+	.block-why img{
+		float: left;
+	}
+
+
+/***** Modules Sidebar *****/
+
+#sidebar .moduletable{
+	max-width: 100%;
+}
+
+
+/***** Module Bloc Pratiquez vous en ligne *****/
+#aside .block-pratice{
+
+}
+
+	#aside .block-pratice a{
+		background-color: #f5f5f5;
+	}
+/***** Module Menu des cours *****/
+	.course-menu h3, .concours-menu h3, .affiliated-menu h3 {
+		display: block;
+	}
+	.course-menu ul, .concours-menu ul, .affiliated-menu ul {
+		padding-bottom: 10px;
+		border-bottom: 4px solid #e51937;
+	}
+		.course-menu ul > li > a, .concours-menu ul > li > a, .affiliated-menu ul > li > a,
+		.course-menu ul > li.active > a, .course-menu ul > li > a:hover, .course-menu ul > li > a:focus, .concours-menu ul > li.active > a, .concours-menu ul > li > a:hover, .concours-menu ul > li > a:focus, .affiliated-menu ul > li.active > a, .affiliated-menu ul > li > a:hover, .affiliated-menu ul > li > a:focus {
+			padding: 6px 0 !important;
+			height: auto;
+			background: none;
+			text-transform: none;
+			color: #004990;
+		}
+		.course-menu ul > li > a:hover, .concours-menu ul > li > a:hover, .affiliated-menu ul > li > a:hover,
+		.course-menu ul > li.current > a, .concours-menu ul > li.current > a, .affiliated-menu ul > li.current > a {
+			color: #e51937 !important;
+		}
+		.course-menu ul > li > a.step {
+			padding-left: 35px !important;
+		}
+		.course-menu ul > li > a.step::before, .concours-menu ul > li > a.step::before, .affiliated-menu ul > li > a.step::before {
+			top: 0;
+			left: 0;
+			background-color: #004990;
+		}
+			.course-menu ul > li > a br, .concours-menu ul > li > a br, .affiliated-menu ul > li > a br,
+			.course-menu ul > li.active > a:after, .concours-menu ul > li.active > a:after, .affiliated-menu ul > li.active > a:after {
+				display: none;
+			}
+			.course-menu ul > li.active > a.step::before, .course-menu ul > li > a.step:hover::before, .course-menu ul > li > a.step:focus::before, .concours-menu ul > li.active > a.step::before, .concours-menu ul > li > a.step:hover::before, .concours-menu ul > li > a.step:focus::before, .affiliated-menu ul > li.active > a.step::before, .affiliated-menu ul > li > a.step:hover::before, .affiliated-menu ul > li > a.step:focus::before {
+				color: #fff;
+				background-color: #e51937;
+			}
+
+	#sidebar .course-menu h3, #sidebar .concours-menu h3, #sidebar .affiliated-menu h3 {
+		font-size: 16px;
+		line-height: 1;
+		text-transform: uppercase;
+		padding: 15px 20px;
+		margin-left: -15px;
+		background: #e51937;
+		color: #fff;
+		margin-right: 20px;
+	}
+	#sidebar .course-menu h3 br, #sidebar .concours-menu h3 br, #sidebar .affiliated-menu h3 br {
+		display: none;
+	}
+
+	#sidebar .course-menu h3::before, #sidebar .concours-menu h3::before, #sidebar .affiliated-menu h3::before {
+		content: "☰";
+		margin-right: 10px;
+	}
+	#sidebar .course-menu h3:after, #sidebar .concours-menu h3:after, #sidebar .affiliated-menu h3:after {
+		position: absolute;
+		right: 0;
+		top: 5px;
+		display: block;
+		width: 0;
+		height: 0;
+		content: "";
+		border: none;
+		right: 25px;
+		border-left: 10px solid #e51937;
+		border-top: 23px solid transparent;
+		border-bottom: 23px solid transparent;
+	}
+
+
+
+/***** Trouver une école *****/
+.page_schools{
+
+}
+	.page_schools .filter-block{
+		padding: 20px 0;
+	}
+
+	.page_schools .school-item{
+
+	}
+
+		.page_schools .school-item .row{
+			margin: 0;
+		}
+			.page_schools .school-item .image{
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			.page_schools .school-item .courses{
+				text-align: left;
+			}
+
+				.page_schools .school-item .courses br{
+					display: none;
+				}
+
+				.page_schools .school-item .courses i{
+					margin: 0 20px 0 0;
+				}
+
+
+/***** Fiche école *****/
+.school-view{
+
+}
+
+	.school-view .school-box-courses .course span{
+		padding: 20px 0 0 10px !important;
+	}
+
+
+/***** Inscription en ligne *****/
+
+/** Step 3 **/
+.tecnic_register .filter-location > div{
+	margin-bottom: 20px;
+}
+
+.tecnic_register .register_position .block-info{
+	margin-top: 20px;
+}
+
+/** Step 4 **/
+
+.tecnic_register .register_schools .table:not(.no-mobile) thead { display: none; }
+.tecnic_register .register_schools .table:not(.no-mobile) tbody {
+	position: relative;
+}
+
+.tecnic_register .register_schools .table:not(.no-mobile) tbody tr {
+	display: block;
+	position: relative;
+}
+
+.tecnic_register .register_schools .table:not(.no-mobile) tbody tr + tr {
+	border-top: 2px solid #e51937;
+}
+
+.tecnic_register .register_schools .table:not(.no-mobile) tbody td::before {
+	content: attr(data-th);
+	font-weight: 600;
+	color: #e51937;
+	display: inline-block;
+	width: 23.5%;
+	word-wrap: break-word;
+	position: absolute;
+	left: 10px;
+	text-align: left;
+}
+.tecnic_register .register_schools .table:not(.no-mobile) > thead > tr > th, .tecnic_register .register_schools .table:not(.no-mobile) > tbody > tr > th, .tecnic_register .register_schools .table:not(.no-mobile) > tfoot > tr > th, .tecnic_register .register_schools .table:not(.no-mobile) > thead > tr > td, .tecnic_register .register_schools .table:not(.no-mobile) > tbody > tr > td, .tecnic_register .register_schools .table:not(.no-mobile) > tfoot > tr > td {
+	display: block;
+	padding: 10px 5px 10px 28%;
+	text-align: left !important;
+}
+
+
+
+.tecnic_register .register_schools .table > tbody tr + tr{
+	/* border-top: 2px solid #595959 !important; */
+	border-top: 2px solid #FFF !important;
+}
+
+	.tecnic_register .register_schools .table > tbody td::before{
+		color: #334899 !important;
+	}
+
+	.tecnic_register .register_schools .table-hover > tbody > tr.active > td::before,
+	.tecnic_register .register_schools .table-hover > tbody > tr:hover > td::before,
+	.tecnic_register .register_schools .table-hover > tbody > tr:focus > td::before{
+		color: #FFF !important;
+	}
+
+	.tecnic_register .register_schools .table > tbody > tr > td.check, .tecnic_register .register_schools .table > tbody > tr > td.choose{
+		padding-left: 0;
+		text-align: center !important;
+	}
+
+	.tecnic_register .register_schools .table > tbody > tr > td > i{
+		top: -7px;
+		bottom: auto;
+	}
+
+	/* .tecnic_register .register_schools .table > tbody > tr > td > .btn{
+		display: block !important;
+		float: none !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		width: 100%;
+	} */
+
+
+/** Step 6 **/
+
+.tecnic_register .register_options .table > thead > tr > th.quantity {
+	text-align: left !important;
+}
+
+	.tecnic_register .qtyless, .tecnic_register td.quantity .input-append{
+		position: relative;
+		float: none;
+		padding-right: 21px;
+	}
+		.tecnic_register .quantity_value{
+			width: 40px !important;
+			padding: 0 10px !important;
+			text-align: right !important;
+		}
+		.tecnic_register .qtyless, .tecnic_register .qtymore{
+			position: static;
+			top : auto;
+			right : auto;
+			bottom : auto;
+			left : auto;
+			width: 40px !important;
+			height: 40px !important;
+			margin: 0;
+			padding: 0;
+			font-size: 16px;
+			line-height: 18px;
+		}
+
+		.tecnic_register .qtyless{
+			margin-right: 5px;
+		}
+
+		.tecnic_register .qtymore{
+			margin-left: 5px;
+		}
+
+/** Step 7 **/
+
+
+
+/** Step 9 **/
+.tecnic_mondossier .well.payment-amount.receipt-nochoice{
+	padding: 15px 15px 10px;
+}
+
+.tecnic_mondossier .well.payment-amount.receipt-choices{
+	padding: 15px 15px 10px;
+}
+
+.tecnic_mondossier .well.payment-receipt{
+	margin-top: 40px;
+}
+
+/***** Mon dossier *****/
+
+/* Dashboard */
+.tecnic_mondossier.dashboard{
+
+}
+
+
+.moduletable.member-menu{
+	max-width: none;
+}
+
+.tecnic_mondossier .phase .item-course .course-action .jumelage_proposed_container a.btn{
+	width:90%;
+	margin:5px;
+}
+
+/* Cours cancel */
+.tecnic_mondossier #cancel_popup_container{
+	width: 720px;
+}
+
+/* Mon horaire */
+.tecnic_mondossier #course_form .product-payment{
+	text-align: left;
+	padding-top: 0;
+}
+
+.tecnic_mondossier .phase .item-course .course-action .course-status{
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.tecnic_mondossier .phase .item-course .course-action .btn{
+	font-size: 14px;
+	line-height: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

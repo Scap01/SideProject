@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-lg-block{
+	display: block !important;
+	width: 100%;
+	float: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.breadcrumb > li.active > span {
+	max-width: 600px;
+}
+
+
+/***** Fiche école *****/
+.school-view .school-box-courses .course.course-1 span,.school-view .school-box-courses .course.course-6 span,.school-view .school-box-courses .course.course-9 span{
+	padding-top: 10px;
+}
+
+
+/***** Inscription en ligne *****/
+.tecnic_register  .register_schools .table > thead > tr > th.online{
+	min-width: 10%;
+}
+
+.tecnic_register  .register_schools .table > thead > tr > th.lang-th{
+	min-width: 17%;
+}
+
+.tecnic_register  .register_schools .table > thead > tr > th.lang-pr{
+	min-width: 17%;
+}
+
+.tecnic_register .register_user #tecnic_register_user_email + .help-block.info{
+	margin-bottom: 34px;
+}
+
+.tecnic_register .register_user #tecnic_register_user_email + .help-block.info + .help-block.error{
+	margin-top: -34px;
+	margin-bottom: 13px;
+}
+
+/******** cours details ************/
+.tecnic_mondossier .item .item-body.item-course .cours-assignation-item{
+	padding-left:50px;
+}
+.tecnic_mondossier .item .use-availabilities-item-content{
+    padding-left:50px;
+}

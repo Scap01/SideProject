@@ -1,0 +1,28 @@
+.banner-container{
+    background-color: #e51937;
+}
+
+.banner-container .banner-container-inner h3{
+    margin-top: 0;
+    margin-bottom:0;
+    color:#fff;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.banner-container .banner-container-inner{
+
+}
+.banner-container .banner-container-inner .hidden-container{
+    background-color:#fff;
+    border-bottom:2px solid #e51937;
+    padding-top: 10px;
+    display:none;
+}
+.banner-container .banner-container-inner .button-container{
+    clear:both;
+    margin: 10px 10px 10px 15px;
+}
+.banner-container .banner-container-inner .button-container .btn{
+    margin-bottom:10px;
+}

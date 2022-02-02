@@ -1,0 +1,172 @@
+.btn-xs-block{
+	display: block !important;
+	width: 100%;
+	float: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.table:not(.no-mobile) tbody td::before{
+	width: 28.5%;
+}
+
+.table:not(.no-mobile) > thead > tr > th, .table:not(.no-mobile) > tbody > tr > th, .table:not(.no-mobile) > tfoot > tr > th, .table:not(.no-mobile) > thead > tr > td, .table:not(.no-mobile) > tbody > tr > td, .table:not(.no-mobile) > tfoot > tr > td{
+	padding-left: 34%;
+}
+
+
+.header{
+
+}
+
+	.header-top{
+
+	}
+
+
+		.header .brand{
+			text-align: left;
+		}
+
+/***** Pagination *****/
+
+.pagination .first, .pagination .last{
+	display: none;
+}
+
+/***** Trouver une école *****/
+
+.page_schools .school-item .btn + .btn{
+	margin-left: 0;
+}
+
+
+/***** Inscription en ligne *****/
+
+/** Step 5 **/
+
+.tecnic_register .register_products .item .category, .tecnic_mondossier.dashboard .item .category{
+	float: none;
+	margin: 0 auto;
+}
+
+.tecnic_register .reminder .remind-product .category, .tecnic_register .reminder .remind-school .category{
+	float: none;
+	margin: 0 auto;
+}
+
+.tecnic_register .reminder .remind-product .product, .tecnic_register .reminder .remind-school .school{
+	text-align: center;
+}
+
+/** Step 7 **/
+
+.tecnic_register .nav-tabs.nav-style2 {
+
+}
+
+	.tecnic_register .nav-tabs.nav-style2 > li{
+		width: 100%;
+		margin: 5px 0;
+	}
+
+
+/** Step 10 **/
+
+.tecnic_register .register_confirmation .btn + .btn{
+	margin: 10px 0;
+}
+
+
+
+/***** Mon dossier *****/
+
+/** Dashboard **/
+
+.tecnic_mondossier.dashboard .item .item-heading{
+	padding: 10px 0;
+	background: none;
+}
+
+.tecnic_mondossier.dashboard .item .item-body{
+	padding: 15px 0;
+}
+
+
+/* Mon horaire */
+.tecnic_mondossier #course_form{
+
+}
+
+.tecnic_mondossier #course_form .product-info{
+
+}
+.tecnic_mondossier #course_form .product-info .category{
+	margin-bottom: 0;
+}
+
+.tecnic_mondossier #course_form .product-info .item-title{
+	margin-bottom: 30px;
+}
+
+.tecnic_mondossier #course_form .product-info p.product-title-line2,.tecnic_mondossier #course_form .product-info p.product-title-line3{
+    margin-left:0px;
+}
+.tecnic_mondossier #course_form .phases .course-action .course-status.finished{
+	float:none !important;
+}
+
+.tecnic_mondossier #cancel_popup_container h2{
+	font-size:18px;
+	line-height:24px;
+}
+
+
+/* Cours details et assignation */
+.tecnic_mondossier .item .item-body.item-course .cours-assignation-item{
+	padding-left:0;
+}
+.tecnic_mondossier .item .use-availabilities-item-content{
+    padding-left:0;
+}
+.fc-calendar .fc-head {
+    font-size: 9px !important;
+}
+
+/* Cart */
+		.tecnic_mondossier .tecnic_cart td.cart_product_title_row{
+		    padding-left: 34%;
+		}
+
+
+/***** Footer *****/
+.footer{
+
+}
+
+	.footer-menu{
+
+	}
+
+		.footer-menu .menu{
+			margin: 0;
+		}
+
+			.footer-menu .menu > li{
+				float: none;
+				width: 100%;
+				height: auto;
+				margin: 0 0 5px;
+			}
+
+				.footer-menu .menu > li > span{
+					cursor: pointer;
+				}
+
+				.footer-menu .menu > li > span:hover, .footer-menu .menu > li > span:focus{
+					color: #f2eb0b;
+				}
+
+				.footer-menu .menu > li br{
+					display: none;
+				}

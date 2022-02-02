@@ -1,0 +1,27 @@
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p.align_left{
+    margin-left: 10px;
+}
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p.align_right{
+    margin-right: 10px;
+}
+.text_over_image_moniteur_auto{
+    padding-left:0;
+    width:100%;
+}
+.header_page_moniteur_auto{
+    background-image:none !important;
+    height:auto;
+}
+.formulaire_carrieres_form_fields_container{
+    padding-left:15px;
+    padding-right:15px;
+}
+.formulaire_carrieres_outer_content{
+    padding: 30px 10px 30px 10px;
+}
+
+div.carrieres-blue-bloc-bottom > div.moduletable > div div.inner_container p.small_width {
+    width: 50%;
+    line-height: 16px;
+    margin-top: 58px;
+}
