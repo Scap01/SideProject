@@ -1,8 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-tecnic.ca	TRUE	/	FALSE	1999999999	aaf842e0e3950c2760677ce1c704b0d8	mrmhdc15vgprd8ocif13imfmla
-tecnic.ca	TRUE	/	FALSE	1999999999	fb01cd500456a1f2da31cef943053fe3	c76946737bffebffa3c71ee652565ed6
-synchro.tecnic.ca	TRUE	/	FALSE	1999999999	5483d4800337237de4636fc04f144498	35974e5ac070740d7739245521cc8c57
-synchro.tecnic.ca	TRUE	/	FALSE	1999999999	SameSite	None
-tecnic.ca	TRUE	/	FALSE	1999999999	joomsef_lang	en
-
